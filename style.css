@@ -476,6 +476,9 @@ form .btn2{
     .imageBorder2{
         display: none;
     }
+    #portfolio{
+        margin-top: 500px !important;
+    }
 }
 .imageBorder1{
     position: absolute;
