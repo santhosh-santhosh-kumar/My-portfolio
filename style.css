@@ -37,7 +37,7 @@ z-index: 1;
  left: 0px;
  padding: 5px 5px 8px 5px;
  background-color: rgb(18,18,18);
-
+ width: 100%;
 }
 #sideMenu{
 margin-left: 508px;
@@ -446,7 +446,10 @@ form .btn2{
         
     }
     .about-col-1,.about-col-2{
-        flex-basis: 100%;
+        flex-basis: 120%;
+    }
+    .work img{
+        height: 370px;
     }
     .about-col-1{
      margin-bottom: 30px;
@@ -454,6 +457,7 @@ form .btn2{
     .about-col-2{
         font-size: 14px;
         color: #262626;
+        margin-right: 170px !important;
     }
     .tab-links{
         font-size: 16px;
@@ -471,6 +475,9 @@ form .btn2{
         height: 100%;
         border-radius: 15px;
     }
+    .about-col-2{
+        margin-top: 50px;
+    }
     .imageBorder1{
         display: none;
     }
@@ -478,7 +485,19 @@ form .btn2{
         display: none;
     }
     #portfolio{
-        margin-top: 500px !important;
+        margin-top: 700px !important;
+    }
+    .sub-title1{
+        font-size: 20px;
+    }
+    #top-head{
+        margin: 0px;
+        margin-right: 100px;
+    }
+    .fa-bars{
+        position: absolute;
+        top:40px;
+        right:20px
     }
 }
 .imageBorder1{
